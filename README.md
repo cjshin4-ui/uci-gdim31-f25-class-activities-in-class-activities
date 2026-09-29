@@ -1,7 +1,10 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+Hello World!
+When removing the Camera from the Cat hierarchy, the camera stays in place and does not follow the cat anymore. This is because I took it out of the cat hierarchy so it is not grouped with it and does not move with it. 
+
+https://cjshin4.itch.io/cat-game
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
