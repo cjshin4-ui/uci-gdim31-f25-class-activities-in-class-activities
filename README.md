@@ -7,7 +7,11 @@ When removing the Camera from the Cat hierarchy, the camera stays in place and d
 https://cjshin4.itch.io/cat-game
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+The r, g, and b values are floats because it deals with decimals in the numbers. Strings are for text, integers are for whole numbers, and bools are for true or false. 
+
+The bounce variable is an integer because counting is in whole numbers, and floats deal with decimals which aren't needed, strings deal with text which isn't needed, and bools are for true and false. 
+
+The line of code was broken and not working because there was no semicolon at the end of the line. 
 
 ## Open-Source Assets
 ### W1
