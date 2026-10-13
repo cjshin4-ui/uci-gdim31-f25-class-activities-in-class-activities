@@ -17,6 +17,7 @@ The line of code was broken and not working because there was no semicolon at th
 ### W3
 Table #1
 Activity 1.
+
     1. One parameter would be an integer for friendship level, and the other would be a bool for the flag if you know the character's secret. The return type would be a string.
 
     2. The parameter would be an integer for the sanity level, it would be a void type since there is no return
@@ -30,7 +31,7 @@ Activity 2.
 Activity 3.
 
     The balls get extremely bright when bouncing a lot because the ball speeds up by the multiplier every time it comes into contact with something, and since it is going so fast by the multiplier, it will always meet the minimum speed requirement to increase brightness, so it will get brighter each time it bounces because of the GetColorMultiplier, and this continues.  
-    
+
 
 
 
