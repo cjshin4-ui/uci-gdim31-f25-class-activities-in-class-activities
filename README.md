@@ -22,10 +22,15 @@ Activity 1.
     2. The parameter would be an integer for the sanity level, it would be a void type since there is no return
 
     3. The parameter would be float for the time, the return type would be a boolean
-Activity 2. 
+
+Activity 2.
+
     The metaphor to compare classes and components would be about humans, and the classes are each body part, and then you attach them to a human which is a component. 
+
 Activity 3.
+
     The balls get extremely bright when bouncing a lot because the ball speeds up by the multiplier every time it comes into contact with something, and since it is going so fast by the multiplier, it will always meet the minimum speed requirement to increase brightness, so it will get brighter each time it bounces because of the GetColorMultiplier, and this continues.  
+    
 
 
 
