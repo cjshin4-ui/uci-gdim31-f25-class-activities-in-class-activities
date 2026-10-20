@@ -59,7 +59,7 @@ public class SoccerBall : MonoBehaviour
         Debug.Log("SoccerBall detected a collision with a trigger collider!");
         _goalVFX.Play();
         points += 1;
-        _pointsText.text = "Points: " + points.ToString();
+        _pointsText.text = "points: " + points.ToString();
         time = 0.0f;
 
     }
