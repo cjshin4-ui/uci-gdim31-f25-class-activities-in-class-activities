@@ -1184,7 +1184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1186154446}
   _rigidbody: {fileID: 1186154445}
-  _speedMultiplier: 2
+  _speedMultiplier: 1.1
   _speedThreshold: 10
 --- !u!58 &1186154444
 CircleCollider2D:
@@ -1671,7 +1671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1524498365}
   _rigidbody: {fileID: 1524498364}
-  _speedMultiplier: 2
+  _speedMultiplier: 1.1
   _speedThreshold: 10
 --- !u!58 &1524498363
 CircleCollider2D:
@@ -1786,7 +1786,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 0.9617431, b: 1, a: 1}
+  m_Color: {r: 0.13514416, g: 0.40774146, b: 0.4188679, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2384,7 +2384,7 @@ MonoBehaviour:
   _pointsText: {fileID: 980115520}
   _speechText: {fileID: 1520169577}
   _maxHealth: 5
-  _destroyCatWhenDead: 0
+  _destroyCatWhenDead: 1
 --- !u!1 &1756818710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2548,7 +2548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1859840768}
   _rigidbody: {fileID: 1859840767}
-  _speedMultiplier: 2
+  _speedMultiplier: 1.1
   _speedThreshold: 10
 --- !u!58 &1859840766
 CircleCollider2D:
@@ -2663,7 +2663,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.6275378, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.37151653, g: 0.5245282, b: 0.11381265, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2859,7 +2859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 2136596839}
   _rigidbody: {fileID: 2136596838}
-  _speedMultiplier: 2
+  _speedMultiplier: 1.1
   _speedThreshold: 10
 --- !u!58 &2136596837
 CircleCollider2D:
@@ -2974,7 +2974,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.4792453, g: 0.14015658, b: 0.14015658, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
