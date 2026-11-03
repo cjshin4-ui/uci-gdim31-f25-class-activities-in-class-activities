@@ -9,6 +9,10 @@ public class CatW5 : MonoBehaviour
 
     private string _isWalkingName = "IsWalking";
 
+    private Vector3 movement = Vector3.zero;
+
+
+
     private void Update()
     {
         // STEP 1 & 2 ---------------------------------------------------------
@@ -24,7 +28,10 @@ public class CatW5 : MonoBehaviour
         // to change the value of the translation variable,
         // and then call Translate on this GameObject's transform to make it move
         // using translation, _moveSpeed, and Time.deltaTime.
-        //
+        
+        
+        
+
         // Ask yourself:
         //      Which axis moves the cat forwards and backwards?
         //      Which Vector3 static property would be useful here based on
@@ -42,6 +49,26 @@ public class CatW5 : MonoBehaviour
         //      them forwards.
         //
         // MULTIPLY one of your vectors with a certain value to do this. >:)
+        if (_flipWSControls == true) {
+            if (Input.GetKey(KeyCode.W)) {
+                movement = Vector3.forward * _moveSpeed * Time.deltaTime;
+                transform.Translate(movement*-1);
+            }
+            else if (Input.GetKey(KeyCode.S)) {
+                movement = Vector3.back * _moveSpeed * Time.deltaTime;
+                transform.Translate(movement*-1);
+            }
+        }
+        else {
+            if (Input.GetKey(KeyCode.W)) {
+                movement = Vector3.forward * _moveSpeed * Time.deltaTime;
+                transform.Translate(movement);
+            }
+            else if (Input.GetKey(KeyCode.S)) {
+                movement = Vector3.back * _moveSpeed * Time.deltaTime;
+                transform.Translate(movement);
+            }
+        }
 
         Vector3 translation = Vector3.zero;
         

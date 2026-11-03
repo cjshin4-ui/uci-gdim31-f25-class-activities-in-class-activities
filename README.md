@@ -34,7 +34,12 @@ Question1. I added RigidBodies to the SoccerBall and the Cat but not the Goal, s
 
 Question2. I had to fix many things. I had to learn how to use the OnTriggerEvent method and the Collider variable in the parameters. I also forgot to capitalize the o in "On" so I was confused for a little bit there. I accidentally skipped over the step to stop the cat from rotating by locking the rotation so I dealt with that for a while and had to ask for help. 
 
+### W6
+Question 1. It needs a Vector3 variable to transform its position. It needs a component variable for the target GameObject that the deer will walk towards. It will also need a variable for speed which will probably be an integer. 
 
+Question 2. It will need an Update() method for movement each frame. There needs to be a method that actually moves the deer. We also need a collision method for when the deer reaches the target. 
+
+Question 3. The Update() method will checks the deer every frame. The movement method that will control the deer's movement. And then a collision method that detects when the deer reaches the target GameObject. 
 
 ## Open-Source Assets
 
