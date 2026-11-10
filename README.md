@@ -41,6 +41,14 @@ Question 2. It will need an Update() method for movement each frame. There needs
 
 Question 3. The Update() method will checks the deer every frame. The movement method that will control the deer's movement. And then a collision method that detects when the deer reaches the target GameObject. 
 
+
+### W7
+Question1. We will need a integer variable for the speed and it will be tunable in the inspector. We will also need a Vector2 for the position of the bats and the player so that the bats can chase them. 
+
+Question2. There will be a method to stop the bats and then there will be a method to start the bats. 
+
+Question3. The start method will set the target and speed and the stop method will set them to 0. 
+
 ## Open-Source Assets
 
 
