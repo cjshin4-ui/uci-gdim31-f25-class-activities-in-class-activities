@@ -43,6 +43,8 @@ Question 3. The Update() method will checks the deer every frame. The movement m
 
 
 ### W7
+Resource Guide: https://docs.google.com/document/d/1_tBpKPam_XOvv1F1GfLHlH7EezarfYFHKBYlpzPdyPM/edit?tab=t.0
+
 Question1. We will need a integer variable for the speed and it will be tunable in the inspector. We will also need a Vector2 for the position of the bats and the player so that the bats can chase them. 
 
 Question2. There will be a method to stop the bats and then there will be a method to start the bats. 
