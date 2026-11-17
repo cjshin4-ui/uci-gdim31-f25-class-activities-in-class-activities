@@ -51,6 +51,9 @@ Question2. There will be a method to stop the bats and then there will be a meth
 
 Question3. The start method will set the target and speed and the stop method will set them to 0. 
 
+### W8
+Question1. It was using .position and not .Translate(). Also it was using the += operator and not putting it inside the Translate() parenthesis.
+
 ## Open-Source Assets
 
 
